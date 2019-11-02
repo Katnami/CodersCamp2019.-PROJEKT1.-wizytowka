@@ -70,3 +70,7 @@ body {
     color: #FFFFFF;
     text-align: center;
 }
+.graphic-design .graphic-img img {
+    max-width: 100%;
+    
+}
