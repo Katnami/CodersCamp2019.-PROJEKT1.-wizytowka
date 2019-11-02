@@ -1,7 +1,7 @@
 html {
     font-size: 62.5%;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -22,33 +22,79 @@ body {
     padding-top: 5px;
     box-sizing: border-box;
 }
-.page-nav .navigation-menu{
-    display: none;
-}
+
 
 .page-nav .hamburger {
     border: 0;
     background: 0;
     position: absolute;
     right: 30px;
-    top:30px;
+    top: 30px;
     fill: rgb(255, 255, 255);
     width: 30px;
     height: 30px;
 }
 
-.page-nav .hamburger .hamburger-icon{
+.page-nav .hamburger .hamburger-icon {
     height: 10px;
     width: 20px;
 }
-.page-nav .hamburger .close-icon{
+
+.page-nav .hamburger .close-icon {
     display: none;
+    width: 14px;
 }
+
 .page-nav .navigation-menu {
     list-style: none;
     padding: 0;
     margin: 0;
+    /*display: none;*/
+}
 
+.page-nav .navigation-menu li {
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #F5F7F8;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.page-nav .navigation-menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    
+}
+
+.page-nav .navigation-menu li img {
+    position:absolute;
+    width:35px;
+    margin-left:15px;
+    margin-top:-5px;
+    
+
+} 
+
+.page-header .nav-opened {
+    background: rgb(255, 255, 255);
+
+}
+
+.page-header.nav-opened .page-nav .hamburger {
+    fill: rgb(0, 0, 0);
+}
+
+page-header.nav-opened .page-nav .hamburger .hamburger-icon {
+    display: none;
+}
+
+.page-header.nav-opened .page-nav .hamburger .close-icon {
+    display: inline-block;
 }
 
 .description .description-main {
@@ -70,17 +116,20 @@ body {
     color: #FFFFFF;
     text-align: center;
 }
+
 .graphic-design .graphic-img img {
     max-width: 100%;
-    
+
 }
-.photography .photography-img img{
+
+.photography .photography-img img {
     max-width: 100%;
 }
 
-.ski .ski-img img{
+.ski .ski-img img {
     max-width: 100%;
 }
-.sail .sail-img img{
+
+.sail .sail-img img {
     max-width: 100%;
 }
