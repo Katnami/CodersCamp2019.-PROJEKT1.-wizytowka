@@ -19,7 +19,7 @@ body {
     width: 100%;
 
     padding: 20px;
-    padding-top: 28px;
+    padding-top: 5px;
     box-sizing: border-box;
 }
 .page-nav .navigation-menu{
@@ -31,8 +31,19 @@ body {
     background: 0;
     position: absolute;
     right: 30px;
+    top:30px;
+    fill: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
 }
 
+.page-nav .hamburger .hamburger-icon{
+    height: 10px;
+    width: 20px;
+}
+.page-nav .hamburger .close-icon{
+    display: none;
+}
 .page-nav .navigation-menu {
     list-style: none;
     padding: 0;
