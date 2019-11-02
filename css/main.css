@@ -9,3 +9,16 @@ html {
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
   }
+  .page-nav .hamburger{
+      border: 0;
+      background: 0;
+  }
+  .page-nav .navigation-menu{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+  }
+  .description .description-main{
+      background: url(.../img/mainbg.jpg);
+  }
