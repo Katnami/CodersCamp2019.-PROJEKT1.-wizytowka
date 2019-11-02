@@ -19,6 +19,24 @@ html {
       margin: 0;
 
   }
-  .description .description-main{
-      background: url(.../img/mainbg.jpg);
+  .description .description-main
+  {
+    box-sizing: border-box;
+
+    background: url(../img/mainbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  
+    min-height: 60vh;
+  
+    padding: 20px;
+    padding-top: 100px;
+  
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+  
+    color: #FFFFFF;
+    text-align: center;
+  }
   }
