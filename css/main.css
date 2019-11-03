@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: "Open Sans";
+    font-family: 'Lato', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
 }
@@ -49,7 +49,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    /*display: none;*/
+    display: none;
 }
 
 .page-nav .navigation-menu li {
@@ -80,21 +80,32 @@ body {
 
 } 
 
-.page-header .nav-opened {
+.page-header .nav-opened  {
     background: rgb(255, 255, 255);
+    box-shadow: -1px 9px 19px -8px rgba(0,0,0,0.49);
 
 }
+.page-header .nav-opened .navigation-menu{
+    display:block;
 
-.page-header.nav-opened .page-nav .hamburger {
+}
+.page-header .nav-opened .page-nav .hamburger {
     fill: rgb(0, 0, 0);
 }
 
-page-header.nav-opened .page-nav .hamburger .hamburger-icon {
+.page-header.nav-opened .page-nav .hamburger .hamburger-icon {
     display: none;
 }
 
 .page-header.nav-opened .page-nav .hamburger .close-icon {
     display: inline-block;
+}
+
+
+h2{
+    margin:0 ;
+    font-size: 4.1rem;
+    font-weight:bold;
 }
 
 .description .description-main {
@@ -116,6 +127,16 @@ page-header.nav-opened .page-nav .hamburger .hamburger-icon {
     color: #FFFFFF;
     text-align: center;
 }
+.hapon img{
+    max-width:160px;
+    border radius: 70%;
+    display: inline-block;
+}
+
+
+
+
+
 
 .graphic-design .graphic-img img {
     max-width: 100%;
