@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
 }
@@ -102,11 +102,7 @@ body {
 }
 
 
-h2{
-    margin:0 ;
-    font-size: 4.1rem;
-    font-weight:bold;
-}
+
 
 .description .description-main {
     box-sizing: border-box;
@@ -128,29 +124,88 @@ h2{
     text-align: center;
 }
 .hapon img{
-    max-width:160px;
-    border radius: 70%;
-    display: inline-block;
+    max-width:70% ;
+    border-radius: 70% ; 
+ 
 }
 
+.header-hapon{  margin:0 ;
+    font-size: 4.1rem;
+    font-weight:bold;
+    margin-bottom: 50px;
 
+}
 
 
 
 
 .graphic-design .graphic-img img {
     max-width: 100%;
+    
 
 }
 
 .photography .photography-img img {
     max-width: 100%;
+    box-shadow: 25px 36px 79px -38px rgba(65,77,138,0.67);
+   
 }
 
 .ski .ski-img img {
     max-width: 100%;
+    
 }
 
 .sail .sail-img img {
     max-width: 100%;
+  
+}
+.article-container{
+    margin:0px;
+    padding:15px;
+    padding-top: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows:  1fr;
+    
+}
+
+@media(min-width:600px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 2fr;
+        grid-auto-flow: column;
+    }
+    .item5{
+        /*grid-column: span 2;
+        grid-row: span 2;*/
+        grid-column-start: 1;
+        grid-column-end:3;
+        grid-row-start: 3;
+        grid-row-end:4;
+    }
+}
+@media(min-width:1200px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .item5{
+        grid-column-start: 1;
+        grid-column-end:5;
+        grid-row-start: 2;
+        grid-row-end:3;
+    }
+}
+
+h3{
+    text-align: center;
 }

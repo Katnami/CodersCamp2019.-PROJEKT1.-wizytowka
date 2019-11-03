@@ -10,19 +10,19 @@
 </head>
 
 <head>
-    
-    <header class="page-header " >
+
+    <header class="page-header ">
         <a href="#" title="Przejdz do strony głównej">
         </a>
         <nav class="page-nav">
-            
+
             <ul class="navigation-menu">
                 <li><a href="#" title="Przejdz do strony głównej">Strona główna<img src="img/home.png"></a></li>
                 <li><a href="#" title="Kilka słów o mnie">O mnie<img src="img/info.png"></a></li>
                 <li><a href="#" title="Poczytaj o mojej przygodzie z programowaniem">Programowanie<img
-                    src="img/programming.png"></a></li>
+                            src="img/programming.png"></a></li>
                 <li><a href="#" title="Przejdż do działu o grafice komputerowej">Pojektowanie graficzne<img
-                    src="img/graphic.png"></a></li>
+                            src="img/graphic.png"></a></li>
                 <li><a href="#" title="Dział o mojej pracy jako fotograf">Fotografia<img src="img/camera.png"></a></li>
                 <li><a href="#" title="Dział o mojej pracy jako instruktor">Narciarstwo<img src="img/ski.png"></a></li>
                 <li><a href="#" title="Letnie sporty jako pasja życia-zobacz">Żeglarstwo<img src="img/sail.png"></a>
@@ -32,12 +32,17 @@
 
 
             <button type="button" title="Otwórz menu" class="hamburger">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="35" height="12" viewBox="0 0 35 12" class="hamburger-icon">
-                <path d="M-0.000,12.000 L-0.000,8.000 L35.000,8.000 L35.000,12.000 L-0.000,12.000 ZM-0.000,0.000 L35.000,0.000 L35.000,4.000 L-0.000,4.000 L-0.000,0.000 Z"/>
-              </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="28.312" height="27.594" viewBox="0 0 28.312 27.594" class="close-icon">
-                <path d="M28.298,2.831 L16.984,14.145 L27.591,24.751 L24.763,27.580 L14.156,16.973 L3.549,27.580 L0.721,24.751 L11.328,14.145 L0.014,2.831 L2.842,0.003 L14.156,11.316 L25.470,0.003 L28.298,2.831 Z"/>
-              </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    preserveAspectRatio="xMidYMid" width="35" height="12" viewBox="0 0 35 12" class="hamburger-icon">
+                    <path
+                        d="M-0.000,12.000 L-0.000,8.000 L35.000,8.000 L35.000,12.000 L-0.000,12.000 ZM-0.000,0.000 L35.000,0.000 L35.000,4.000 L-0.000,4.000 L-0.000,0.000 Z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    preserveAspectRatio="xMidYMid" width="28.312" height="27.594" viewBox="0 0 28.312 27.594"
+                    class="close-icon">
+                    <path
+                        d="M28.298,2.831 L16.984,14.145 L27.591,24.751 L24.763,27.580 L14.156,16.973 L3.549,27.580 L0.721,24.751 L11.328,14.145 L0.014,2.831 L2.842,0.003 L14.156,11.316 L25.470,0.003 L28.298,2.831 Z" />
+                </svg>
 
             </button>
         </nav>
@@ -47,7 +52,7 @@
     <main>
         <article class="description">
             <header class="description-main">
-                <h2>Katarzyna<br>Hapon
+                <h2 class="header-hapon">Katarzyna<br>Hapon
                 </h2>
                 <button type="button" title='Zobacz czym się zajmuję'>Zobacz więcej !</button>
             </header>
@@ -57,20 +62,26 @@
             <figure class="hapon">
                 <img src=img/hapon.jpg alt="Katarzyna Hapon">
             </figure>
-            <p>Cześć! Jestem początkującą web-developerką.Studiuję informatykę na WSIZ "Copernicus" we Wrocławiu. W
-                wolnych chcwilach zajmuję się fotografią zwierzęcą oraz
-                projektowaniem graficznym. Zimą możecie spotkać mnie na stokach narciarskich, latem natomiast życie
-                płynie mi na pokładzie małych lub dużych jachtów
-                Możesz dowiedzieć się o mnie więcej czytając dalej :)
-            </p>
+            <div class="article-container">
+
+
+                <p>Cześć! Jestem początkującą web-developerką.Studiuję informatykę na WSIZ "Copernicus" we Wrocławiu. W
+                    wolnych chwilach zajmuję się fotografią zwierzęcą oraz
+                    projektowaniem graficznym. Zimą możecie spotkać mnie na stokach narciarskich, latem natomiast życie
+                    płynie mi na pokładzie małych lub dużych jachtów
+                    Możesz dowiedzieć się o mnie więcej czytając dalej :)
+                </p>
+            </div>
         </article>
     </main>
     <section>
         <h3>Programowanie</h3>
-        <p>Obecnie pracuję nad rozwojem w tych technologiach</p>
+        <div class="article-container">
+            <p>Obecnie pracuję nad rozwojem w tych technologiach</p>
+        </div>
         <div>
             <figure><img src="https://img.icons8.com/color/96/000000/javascript.png">
-            
+
                 <figcaption>Javascript</figcaption>
             </figure>
             <figure>
@@ -96,104 +107,119 @@
 
     </section>
     <section class="graphic-design">
-        <div class="graphic-img">
-            <h2>Projektowanie graficzne </h2>
-            <figure >
-                <img src="img/plakat.jpg" alt="Lazy-day plakat promujący">
-                <figcaption>Lazy-day||Plakat promujący logo</figcaption>
-            </figure>
-            <figure>
-                <img src="img/nyc.jpg" alt="NYC plakat">
-                <figcaption>Plakat o wydarzeniach 11 września</figcaption>
-            </figure>
-            <figure>
-                <img src="img/prokrastynacja.jpg" alt="Prokrastynacja plakat">
-                <figcaption>Infografika o prokrastynacji</figcaption>
-            </figure>
-            <figure>
-                <img src="img/telewizor.jpg" alt="Telewizor dynamiczny plakat">
-                <figcaption>Telewizor jako obiekt dynamiczny</figcaption>
-            </figure>
-        </div>
-            <p>Projektowanie graficzne jest moją pasją od kilku lat. Swoją przygodę z projektowaniem zaczęłam w
-                Centrum Podstaw Twórczych. W wolnych chwilach projektuję loga, plakaty oraz bannery reklamowe.
-                Zapraszam do kontaktu !
-            </p>
-        
+        <div class="graphic-img ">
+            <h3>Projektowanie graficzne </h3>
+            <div class="grid-container">
+                <figure class="item1">
+                    <img src="img/plakat.jpg" alt="Lazy-day plakat promujący">
+                    <figcaption>Lazy-day||Plakat promujący logo</figcaption>
+                </figure>
+                <figure class="item2">
+                    <img src="img/nyc.jpg" alt="NYC plakat">
+                    <figcaption>Plakat o wydarzeniach 11 września</figcaption>
+                </figure>
+                <figure class="item3">
+                    <img src="img/prokrastynacja.jpg" alt="Prokrastynacja plakat">
+                    <figcaption>Infografika o prokrastynacji</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/telewizor.jpg" alt="Telewizor dynamiczny plakat">
+                    <figcaption>Telewizor jako obiekt dynamiczny</figcaption>
+                </figure class="item4">
+                <div class="artice-container item5">
+                    <p>Projektowanie graficzne jest moją pasją od kilku lat. Swoją przygodę z projektowaniem zaczęłam w
+                        Centrum Podstaw Twórczych. W wolnych chwilach projektuję loga, plakaty oraz bannery reklamowe.
+                        Zapraszam do kontaktu !
+                    </p>
+                </div>
+            </div>
+         </div>
     </section>
     <section class="photography">
-        
-            <h3>Fotografia </h3>
-            <div class="photography-img">
-            <figure>
+
+        <h3>Fotografia </h3>
+        <div class="photography-img grid-container">
+            <figure class="item1">
                 <img src="img/abi.jpg" alt="pies-Abi">
                 <figcaption>Abi</figcaption>
             </figure>
-            <figure>
+            <figure class="item2">
                 <img src="img/gizmo.jpg" alt="Gizmo-mops">
                 <figcaption>Gizmo</figcaption>
             </figure>
-            <figure>
+            <figure class="item3">
                 <img src="img/luna.jpg" alt="Luna-pies mieszaniec">
                 <figcaption>Luna </figcaption>
             </figure>
-            <figure>
+            <figure class=item4>
                 <img src="img/yuki.jpg" alt="Yuki">
                 <figcaption>Yuki</figcaption>
             </figure>
-            <p>Od dziecka ciekawił mnie świat widziany w obiektywie aparatu. Kolory, tekstury i zjawiska - to wszystko
-                urzekło mnie i chciałam zatrzymać to piękno w czasie
-                Zdecydowałam się na fotografię zwierzęcą, ponieważ nasi pupile są bardzo wdzięcznymi modelami - potrafią
-                wyrazić swoją mimiką tak wiele !
-                Uchwycenie tych momentów to dla mnie duża satysfakcja, dlatego organizuję sesje fotograficzne dla małych
-                i dużych zwierząt
-            </p>
+            <div class="article-container item5">
+                <p>Od dziecka ciekawił mnie świat widziany w obiektywie aparatu. Kolory, tekstury i zjawiska - to
+                    wszystko
+                    urzekło mnie i chciałam zatrzymać to piękno w czasie
+                    Zdecydowałam się na fotografię zwierzęcą, ponieważ nasi pupile są bardzo wdzięcznymi modelami -
+                    potrafią
+                    wyrazić swoją mimiką tak wiele !
+                    Uchwycenie tych momentów to dla mnie duża satysfakcja, dlatego organizuję sesje fotograficzne dla
+                    małych
+                    i dużych zwierząt
+                </p>
+            </div>
         </div>
     </section>
     <section class="ski">
-        
-            <h3>Narciarstwo</h3>
-            <div class="ski-img">
+
+        <h3>Narciarstwo</h3>
+        <div class="ski-img">
             <figure>
-                 <img src="img/skier.jpg" alt=" Zdjęcie narciarza">
+                <img src="img/skier.jpg" alt=" Zdjęcie narciarza">
             </figure>
-            <p>Od wielu lat uczę młodszych i tych trochę starszych jak czerpać radość z jazdy na naratch. Jestem
-                licencjonowaną
-                instruktorką narciastwa SITN. Pod moją opieką nauczysz się jak pokonać trasę każdego koloru. Jeżeli
-                jesteś zaawansowanym narciarzem
-                to możemy razem odkryć przed Tobą uroki jazdy poza trasami w świeżym puchu lub możesz spróbować jazdy
-                sportowej, by poczuć się jak najlepsi zawodnicy
-                pokonujący trasy slalomu lub slalomu giganta
-            </p>
+            <div class="article-container">
+                <p>Od wielu lat uczę młodszych i tych trochę starszych jak czerpać radość z jazdy na naratch. Jestem
+                    licencjonowaną
+                    instruktorką narciastwa SITN. Pod moją opieką nauczysz się jak pokonać trasę każdego koloru. Jeżeli
+                    jesteś zaawansowanym narciarzem
+                    to możemy razem odkryć przed Tobą uroki jazdy poza trasami w świeżym puchu lub możesz spróbować
+                    jazdy
+                    sportowej, by poczuć się jak najlepsi zawodnicy
+                    pokonujący trasy slalomu lub slalomu giganta
+                </p>
+            </div>
         </div>
     </section>
     <section class=sail>
-            
-                <h3>Żeglarstwo</h3>
-                <div class="sail-img">
-                <figure>
-                     <img src="img/sailer.jpg" alt=" Zdjęcie żeglarza">
-                </figure>
-                <p> Morska bryza czy lekki mazurski wiaterek ? Najlepiej oba! Jako osoba wielekrotnie żeglująca po wodach morskich i śródlądowych, chętnie wprowadzę
-                    Cię w świat żeglarski. Poznasz co żeglarze nazywają halsem, a co to jest szekla i czym własciwie różni się od szkentli.
+
+        <h3>Żeglarstwo</h3>
+        <div class="sail-img">
+            <figure>
+                <img src="img/sailer.jpg" alt=" Zdjęcie żeglarza">
+            </figure>
+            <div class="article-container">
+                <p> Morska bryza czy lekki mazurski wiaterek ? Najlepiej oba! Jako osoba wielekrotnie żeglująca po
+                    wodach morskich i śródlądowych, chętnie wprowadzę
+                    Cię w świat żeglarski. Poznasz co żeglarze nazywają halsem, a co to jest szekla i czym własciwie
+                    różni się od szkentli.
                     Wyrusz ze mną na podbój Mazurskich jezior, kanałów i rzek!
                 </p>
             </div>
+        </div>
+    </section>
+
+    <footer>
+        <section>
+            <a href="#" alt=fb><img src="#"></a>
+            <a href="#" alt=insta><img src="#"></a>
+            <a href="#" alt=github><img src="#"></a>
+
         </section>
+        <section>
+            <p>Mail: kata.hapon@gmail.com</p>
 
-<footer>
-    <section>
-        <a href="#" alt=fb><img src="#"></a>
-        <a href="#" alt=insta><img src="#"></a>
-        <a href="#" alt=github><img src="#"></a>
-
-    </section>
-    <section>
-        <p>Mail: kata.hapon@gmail.com</p>
-        
-    </section>
-</footer>
-<script src="js/main.js"></script>
+        </section>
+    </footer>
+    <script src="js/main.js"></script>
 
 </body>
 
