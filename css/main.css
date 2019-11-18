@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:  'Alegreya Sans', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
 }
@@ -132,7 +132,7 @@ body {
 }
 
 .header-hapon{  margin:0 ;
-    font-size: 4.1rem;
+    font-size: 6rem;
     font-weight:bold;
     margin-bottom: 50px;
 
